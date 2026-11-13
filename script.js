@@ -42,7 +42,7 @@
       const elementoData = document.getElementById('data-atual');
       const hoje = new Date();
 
-      // Formata a data no padrão brasileiro (dia/mês/ano)
+      // Formata a data no padrão brasileiro (dia/mês/ano) e semana
       const dataFormatada = hoje.toLocaleDateString('pt-BR', {
         day: '2-digit',
         month: '2-digit',
