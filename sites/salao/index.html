@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Studio Bella — Salão de Beleza | Monte seu pacote</title>
+    <meta
+      name="description"
+      content="Studio Bella, salão em Brasília. Monte seu pacote de serviços, escolha a profissional e agende."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800;9..144,900&family=Manrope:wght@400;500;600;700;800&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div
+      class="min-h-screen bg-[var(--surface)] text-[var(--ink)]"
+      style="padding-top: var(--safe-area-inset-top); box-sizing: border-box"
+    >
+      <div class="bg-[#FFF8F4] text-[#2A1D24]">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 pt-5 flex flex-wrap justify-between gap-3">
+          <a
+            href="../../index.html"
+            class="inline-flex items-center gap-1.5 rounded-full border border-black/10 bg-white px-3 py-1.5 text-xs font-bold text-[#1B1512]/70 shadow-sm hover:text-[#1B1512] hover:shadow"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-arrow-left"
+            >
+              <path d="m12 19-7-7 7-7"></path>
+              <path d="M19 12H5"></path>
+            </svg>
+            Voltar para Portfólio</a
+          >
+          <div class="[&amp;_button]:!text-[#2A1D24]/70">
+            <button
+              class="inline-flex items-center gap-1.5 rounded-full border border-black/10 bg-white px-3 py-2 text-[11px] font-bold tracking-wide text-[#1B1512]/70 uppercase shadow-sm hover:text-[#1B1512]"
+              data-r="owner-btn"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-shield-check"
+              >
+                <path
+                  d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+                ></path>
+                <path d="m9 12 2 2 4-4"></path></svg
+              >Acesso do Dono
+            </button>
+          </div>
+        </div>
+        <header class="mx-auto max-w-7xl px-4 sm:px-6 py-8 grid gap-8 lg:grid-cols-2 items-center">
+          <div>
+            <span class="rounded-full bg-[#B84A7A] px-3 py-1.5 text-xs font-extrabold tracking-widest text-white uppercase"
+              >Studio Bella · Brasília</span
+            >
+            <h1 class="font-display text-6xl sm:text-7xl leading-[.92] mt-5">
+              Studio<br /><span class="italic text-[#B84A7A]">Bella</span>
+            </h1>
+            <p class="mt-4 text-lg text-[#6F5561] max-w-lg">
+              Beleza com calma, cuidado e hora marcada. Monte seu pacote, escolha a profissional e saia pronta para o seu momento.
+            </p>
+            <div class="mt-5 flex items-center gap-2">
+              <div class="flex gap-1" aria-label="Avaliação 5 de 5">
+                <button type="button" aria-label="1 estrela" class="transition hover:scale-110">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="#FFB800"
+                    stroke="#FFB800"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-star"
+                  >
+                    <path
+                      d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                    ></path>
+                  </svg></button
+                ><button type="button" aria-label="2 estrelas" class="transition hover:scale-110">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="#FFB800"
+                    stroke="#FFB800"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-star"
+                  >
+                    <path
+                      d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                    ></path>
+                  </svg></button
+                ><button type="button" aria-label="3 estrelas" class="transition hover:scale-110">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="#FFB800"
+                    stroke="#FFB800"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-star"
+                  >
+                    <path
+                      d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                    ></path>
+                  </svg></button
+                ><button type="button" aria-label="4 estrelas" class="transition hover:scale-110">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="#FFB800"
+                    stroke="#FFB800"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-star"
+                  >
+                    <path
+                      d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                    ></path>
+                  </svg></button
+                ><button type="button" aria-label="5 estrelas" class="transition hover:scale-110">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="#FFB800"
+                    stroke="#FFB800"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-star"
+                  >
+                    <path
+                      d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+              <b>5,0</b><span class="text-sm text-[#6F5561]">· 268 avaliações</span>
+            </div>
+            <div class="mt-6 flex flex-wrap gap-3">
+              <a href="#agendar-salao" class="rounded-full bg-[#B84A7A] px-6 py-3.5 font-extrabold text-white"
+                >Montar meu pacote →</a
+              ><a
+                href="https://wa.me/5561999999999?text=Ol%C3%A1!%20Quero%20agendar%20no%20Studio%20Bella."
+                target="_blank"
+                rel="noopener noreferrer"
+                class="rounded-full border-2 border-[#2A1D24] px-6 py-3.5 font-bold"
+                >Agendar no WhatsApp</a
+              >
+            </div>
+          </div>
+          <img
+            src="../../assets/img/salao.webp"
+            alt="Atendimento do Studio Bella, salão de beleza"
+            class="h-[360px] sm:h-[460px] w-full rounded-[28px] object-cover shadow-xl"
+          />
+        </header>
+        <main class="mx-auto max-w-7xl px-4 sm:px-6 pb-16 space-y-14">
+          <section id="agendar-salao" class="rounded-[26px] bg-white p-6 sm:p-8 shadow-sm" data-r="package">
+            <p class="text-xs font-extrabold tracking-widest text-[#B84A7A] uppercase">Agendamento multi-serviço</p>
+            <h2 class="font-display text-3xl mt-2">Monte seu pacote em um só agendamento</h2>
+            <p class="mt-2 text-sm text-zinc-600">
+              Marque quantos serviços quiser. Quando um serviço tem só uma profissional, ela já vem selecionada automaticamente.
+            </p>
+            <div class="mt-6 grid gap-3 md:grid-cols-2">
+              <div class="rounded-2xl border-2 p-4 border-[#B84A7A] bg-[#FFF2F7]">
+                <label class="flex justify-between gap-3"
+                  ><span class="flex gap-3"
+                    ><input type="checkbox" class="h-5 w-5 accent-[#B84A7A]" checked="" /><span
+                      ><b>Corte</b
+                      ><span class="block text-xs text-zinc-500">Sem duração fixa · atendimento personalizado</span></span
+                    ></span
+                  ><b>R$&nbsp;90</b></label
+                >
+                <div class="mt-3">
+                  <label class="text-xs font-bold uppercase tracking-wide">Profissional </label
+                  ><select class="input mt-1 !bg-white">
+                    <option>Ana Souza</option>
+                    <option>Beatriz Lima</option>
+                    <option>Carla Mendes</option>
+                  </select>
+                </div>
+              </div>
+              <div class="rounded-2xl border-2 p-4 border-zinc-100">
+                <label class="flex justify-between gap-3"
+                  ><span class="flex gap-3"
+                    ><input type="checkbox" class="h-5 w-5 accent-[#B84A7A]" /><span
+                      ><b>Coloração</b
+                      ><span class="block text-xs text-zinc-500">Sem duração fixa · atendimento personalizado</span></span
+                    ></span
+                  ><b>R$&nbsp;180</b></label
+                >
+              </div>
+              <div class="rounded-2xl border-2 p-4 border-zinc-100">
+                <label class="flex justify-between gap-3"
+                  ><span class="flex gap-3"
+                    ><input type="checkbox" class="h-5 w-5 accent-[#B84A7A]" /><span
+                      ><b>Hidratação</b
+                      ><span class="block text-xs text-zinc-500">Sem duração fixa · atendimento personalizado</span></span
+                    ></span
+                  ><b>R$&nbsp;120</b></label
+                >
+              </div>
+              <div class="rounded-2xl border-2 p-4 border-zinc-100">
+                <label class="flex justify-between gap-3"
+                  ><span class="flex gap-3"
+                    ><input type="checkbox" class="h-5 w-5 accent-[#B84A7A]" /><span
+                      ><b>Manicure</b
+                      ><span class="block text-xs text-zinc-500">Sem duração fixa · atendimento personalizado</span></span
+                    ></span
+                  ><b>R$&nbsp;60</b></label
+                >
+              </div>
+              <div class="rounded-2xl border-2 p-4 border-zinc-100">
+                <label class="flex justify-between gap-3"
+                  ><span class="flex gap-3"
+                    ><input type="checkbox" class="h-5 w-5 accent-[#B84A7A]" /><span
+                      ><b>Maquiagem</b
+                      ><span class="block text-xs text-zinc-500">Sem duração fixa · atendimento personalizado</span></span
+                    ></span
+                  ><b>R$&nbsp;150</b></label
+                >
+              </div>
+              <div class="rounded-2xl border-2 p-4 border-zinc-100">
+                <label class="flex justify-between gap-3"
+                  ><span class="flex gap-3"
+                    ><input type="checkbox" class="h-5 w-5 accent-[#B84A7A]" /><span
+                      ><b>Penteado</b
+                      ><span class="block text-xs text-zinc-500">Sem duração fixa · atendimento personalizado</span></span
+                    ></span
+                  ><b>R$&nbsp;130</b></label
+                >
+              </div>
+            </div>
+            <div class="mt-6 grid gap-3 sm:grid-cols-3">
+              <div><label class="text-sm font-bold">Data</label><input type="date" class="input mt-1" value="" /></div>
+              <div>
+                <label class="text-sm font-bold">Horário</label
+                ><select class="input mt-1">
+                  <option>09:00</option>
+                  <option>11:00</option>
+                  <option>14:00</option>
+                  <option>16:00</option>
+                  <option>18:00</option>
+                </select>
+              </div>
+              <div class="rounded-2xl bg-[#FFF2F7] p-3 flex justify-between items-center">
+                <span><b>1 serviço(s)</b><span class="block text-xs text-zinc-500">Total do pacote</span></span
+                ><b class="font-display text-2xl">R$&nbsp;90</b>
+              </div>
+            </div>
+            <button class="mt-5 w-full rounded-full bg-[#B84A7A] py-3.5 font-extrabold text-white">Confirmar pacote</button>
+          </section>
+          <section class="grid gap-6 lg:grid-cols-2">
+            <div class="rounded-[22px] bg-white p-6 shadow-sm">
+              <h3 class="font-display text-2xl">Quem ama, indica</h3>
+              <div class="mt-4 flex gap-2">
+                <div class="flex gap-1" aria-label="Avaliação 5 de 5">
+                  <button type="button" aria-label="1 estrela" class="transition hover:scale-110">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="#FFB800"
+                      stroke="#FFB800"
+                      stroke-width="1.7"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path>
+                    </svg></button
+                  ><button type="button" aria-label="2 estrelas" class="transition hover:scale-110">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="#FFB800"
+                      stroke="#FFB800"
+                      stroke-width="1.7"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path>
+                    </svg></button
+                  ><button type="button" aria-label="3 estrelas" class="transition hover:scale-110">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="#FFB800"
+                      stroke="#FFB800"
+                      stroke-width="1.7"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path>
+                    </svg></button
+                  ><button type="button" aria-label="4 estrelas" class="transition hover:scale-110">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="#FFB800"
+                      stroke="#FFB800"
+                      stroke-width="1.7"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path>
+                    </svg></button
+                  ><button type="button" aria-label="5 estrelas" class="transition hover:scale-110">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="#FFB800"
+                      stroke="#FFB800"
+                      stroke-width="1.7"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+                <p class="text-sm text-zinc-600">
+                  “Saí pronta para a festa, sem correria. Atendimento impecável.” — <b>Fernanda R.</b>
+                </p>
+              </div>
+              <div class="mt-3 flex gap-2">
+                <div class="flex gap-1" aria-label="Avaliação 5 de 5">
+                  <button type="button" aria-label="1 estrela" class="transition hover:scale-110">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="#FFB800"
+                      stroke="#FFB800"
+                      stroke-width="1.7"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path>
+                    </svg></button
+                  ><button type="button" aria-label="2 estrelas" class="transition hover:scale-110">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="#FFB800"
+                      stroke="#FFB800"
+                      stroke-width="1.7"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path>
+                    </svg></button
+                  ><button type="button" aria-label="3 estrelas" class="transition hover:scale-110">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="#FFB800"
+                      stroke="#FFB800"
+                      stroke-width="1.7"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path>
+                    </svg></button
+                  ><button type="button" aria-label="4 estrelas" class="transition hover:scale-110">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="#FFB800"
+                      stroke="#FFB800"
+                      stroke-width="1.7"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path>
+                    </svg></button
+                  ><button type="button" aria-label="5 estrelas" class="transition hover:scale-110">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="#FFB800"
+                      stroke="#FFB800"
+                      stroke-width="1.7"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-star"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+                <p class="text-sm text-zinc-600">“Coloração ficou exatamente da cor que eu queria.” — <b>Patrícia L.</b></p>
+              </div>
+            </div>
+            <div class="rounded-[22px] border border-[var(--line)] bg-[var(--surface-2)] p-5 sm:p-6" data-r="reviews">
+              <h3 class="font-display text-2xl">Como foi sua experiência?</h3>
+              <p class="text-sm text-[var(--muted)] mt-1">
+                Sua avaliação ajuda o Studio Bella a melhorar — e ajuda outros clientes a escolher.
+              </p>
+              <div class="mt-5 grid gap-3 sm:grid-cols-2">
+                <input class="input" placeholder="Seu nome" value="" />
+                <div class="flex items-center gap-2">
+                  <span class="text-sm font-bold">Nota</span>
+                  <div class="flex gap-1" aria-label="Avaliação 5 de 5">
+                    <button type="button" aria-label="1 estrela" class="transition hover:scale-110">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="26"
+                        height="26"
+                        viewBox="0 0 24 24"
+                        fill="#FFB800"
+                        stroke="#FFB800"
+                        stroke-width="1.7"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-star"
+                      >
+                        <path
+                          d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                        ></path>
+                      </svg></button
+                    ><button type="button" aria-label="2 estrelas" class="transition hover:scale-110">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="26"
+                        height="26"
+                        viewBox="0 0 24 24"
+                        fill="#FFB800"
+                        stroke="#FFB800"
+                        stroke-width="1.7"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-star"
+                      >
+                        <path
+                          d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                        ></path>
+                      </svg></button
+                    ><button type="button" aria-label="3 estrelas" class="transition hover:scale-110">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="26"
+                        height="26"
+                        viewBox="0 0 24 24"
+                        fill="#FFB800"
+                        stroke="#FFB800"
+                        stroke-width="1.7"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-star"
+                      >
+                        <path
+                          d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                        ></path>
+                      </svg></button
+                    ><button type="button" aria-label="4 estrelas" class="transition hover:scale-110">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="26"
+                        height="26"
+                        viewBox="0 0 24 24"
+                        fill="#FFB800"
+                        stroke="#FFB800"
+                        stroke-width="1.7"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-star"
+                      >
+                        <path
+                          d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                        ></path>
+                      </svg></button
+                    ><button type="button" aria-label="5 estrelas" class="transition hover:scale-110">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="26"
+                        height="26"
+                        viewBox="0 0 24 24"
+                        fill="#FFB800"
+                        stroke="#FFB800"
+                        stroke-width="1.7"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-star"
+                      >
+                        <path
+                          d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"
+                        ></path>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <textarea
+                class="input mt-3 min-h-[96px]"
+                placeholder="Ex.: Atendimento rápido, corte ficou exatamente como pedi..."
+              ></textarea>
+              <div class="mt-3 flex flex-wrap items-center gap-3">
+                <button class="rounded-full px-5 py-3 text-sm font-extrabold text-white" style="background: rgb(184, 74, 122)">
+                  Enviar avaliação
+                </button>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+    <script src="../../assets/js/shared.js" defer></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
